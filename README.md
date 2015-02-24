@@ -1,15 +1,21 @@
 # Gabor-Filter
+C++ code to generate gabor kernel and convolve it with an image. 
 
-Input:
-  - Image whoes gabor kernel response is to be found.
+Main file: MAIN.cpp
 
 Libaries used: 
   - OpenCV
 
-C++ code to generate gabor kernel and convolve it with an image. 
+execute.sh: The shell script shows the command which I used to compile MAIN.cpp
 
-The parameters are declared inside the code.
+MAIN.cpp takes an image as input argument.
 
+MAIN.cpp call generate_Gabor_Kernel function, which takes in following parameters:
+- imSize: Size of the gabor kernel
+- theta: orientation of the kernel
+- F: Amplitute of the carrier signal
+- sigX: Spread of the gaussian in x direction
+- sigY: Spread of the gaussian in y direction
 
 Any suggestions or corrections are welcome.
 
