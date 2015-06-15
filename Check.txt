@@ -1,1 +1,1 @@
-hello
+Checking git and github sync on Ubuntu
